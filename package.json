@@ -1,5 +1,5 @@
 {
-  "name": "thenjs",
+  "name": "then",
   "description": "A very small asynchronous promise tool!",
   "author": {
     "name": "zensh"
@@ -43,5 +43,8 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "spm":{
+      "main": "then.js"
   }
 }
